@@ -1,0 +1,34 @@
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MyServletRequestListener
+ */
+ @WebServlet("/MyServletRequestListener")
+public class MyServletRequestListener implements ServletRequestListener {
+	public static int count = 0;
+
+	@Override
+	public void requestInitialized(ServletRequestEvent servletRequestEvent) {
+		count++ ;
+		System.out.println("requestInitialized method has been called : " + this.getClass().getName());
+		ServletRequest servletRequest = servletRequestEvent.getServletRequest();
+		System.out.println(servletRequest + " is created or initialized");
+	}
+
+	@Override
+	public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
+		System.out.println("requestDestroyed method has been called : " + this.getClass().getName());
+		ServletRequest servletRequest = servletRequestEvent.getServletRequest();
+		System.out.println(servletRequest + " is destroyed");
+	}
+
+}

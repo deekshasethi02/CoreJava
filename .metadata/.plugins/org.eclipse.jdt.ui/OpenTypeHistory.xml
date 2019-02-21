@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=corejava/src&lt;Overriding{StoreTest.java[StoreTest" modifiers="1" timestamp="1536824377472"/>
+<typeInfo handle="=corejava/src&lt;Interface{ITelephone.java[ITelephone" modifiers="513" timestamp="1537173515777"/>
+<typeInfo handle="=corejava/src&lt;DAOImplementation{IssuesDAO.java[IssuesDAO" modifiers="513" timestamp="1537443187382"/>
+<typeInfo handle="=corejava/src&lt;DAOImplementation{IssueService.java[IssueService" modifiers="513" timestamp="1537502710692"/>
+<typeInfo handle="=mockito_demo/src\/main\/java&lt;com.yash.mockito_demo.issueservice{IssueService.java[IssueService" modifiers="513" timestamp="1537508590348"/>
+<typeInfo handle="=Document App/src&lt;com.yash.docapp.dao{DocumentDAO.java[DocumentDAO" modifiers="513" timestamp="1537768810373"/>
+<typeInfo handle="=Document App/C:\/Program Files\/Java\/jre1.8.0_121\/lib\/rt.jar&lt;javax.tools(DocumentationTool.class[DocumentationTool" modifiers="1537" timestamp="1535017257568"/>
+<typeInfo handle="=Document App/src&lt;com.yash.docapp.service{DocumentService.java[DocumentService" modifiers="513" timestamp="1537866967099"/>
+<typeInfo handle="=HttpSessionListenerDemo/D:\/apache-tomcat-8.5.31\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpSessionListener.class[HttpSessionListener" modifiers="1537" timestamp="1527676865593"/>
+<typeInfo handle="=HttpSessionListenerDemo2/D:\/apache-tomcat-8.5.31\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1527676865593"/>
+</typeInfoHistroy>

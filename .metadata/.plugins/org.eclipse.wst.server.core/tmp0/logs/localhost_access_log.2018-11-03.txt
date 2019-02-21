@@ -1,0 +1,6 @@
+127.0.0.1 - - [03/Nov/2018:15:56:00 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [03/Nov/2018:15:56:01 +0530] "GET /FirstJSPApplication/FirstServlet HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [03/Nov/2018:15:56:05 +0530] "GET /FirstJSPApplication/FirstServlet HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [03/Nov/2018:15:56:05 +0530] "GET /FirstJSPApplication/FirstServlet HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [03/Nov/2018:15:56:09 +0530] "GET /FirstJSPApplication/FirstServlet HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [03/Nov/2018:15:59:24 +0530] "GET /FirstJSPApplication/index.jsp HTTP/1.1" 200 339

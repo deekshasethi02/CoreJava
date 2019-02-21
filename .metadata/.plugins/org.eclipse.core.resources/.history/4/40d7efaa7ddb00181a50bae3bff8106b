@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SessionCounterDemo">
+        <property name="context-root" value="SessionCounterDemo"/>
+        <property name="java-output-path" value="/SessionCounterDemo/build/classes"/>
+    </wb-module>
+</project-modules>

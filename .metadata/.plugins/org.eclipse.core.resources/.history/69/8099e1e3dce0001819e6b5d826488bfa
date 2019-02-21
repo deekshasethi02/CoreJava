@@ -1,0 +1,12 @@
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class DepartmentDAO {
+
+	public static void main(String[] args) throws NamingException {
+		Context ctx =	new InitialContext();
+		ctx.lookup("");
+	}
+
+}

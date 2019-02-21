@@ -1,0 +1,9 @@
+package com.yash.bike;
+
+public class Bike {
+ int bikeId;
+ String bikeType;
+ 
+ 
+ 
+}

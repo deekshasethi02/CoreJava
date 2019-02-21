@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ServletContextListenerApp">
+        <property name="context-root" value="ServletContextListenerApp"/>
+        <property name="java-output-path" value="/ServletContextListenerApp/build/classes"/>
+    </wb-module>
+</project-modules>

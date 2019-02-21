@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void authenticationCheck(String userrole)&apos; from &apos;CheckRole.main()&apos; to &apos;CheckRole&apos;&#x0D;&#x0A;- Original project: &apos;ExceptionDemoApp&apos;&#x0D;&#x0A;- Method name: &apos;authenticationCheck&apos;&#x0D;&#x0A;- Destination type: &apos;CheckRole&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;authenticationCheck&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{CheckRole.java" name="authenticationCheck" replace="false" selection="162 297" stamp="1537524470156" version="1.0" visibility="2"/>
+</session>

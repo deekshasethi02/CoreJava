@@ -1,0 +1,38 @@
+
+import javax.servlet.annotation.WebListener;
+import javax.servlet.http.HttpSessionAttributeListener;
+import javax.servlet.http.HttpSessionBindingEvent;
+
+/**
+ * Application Lifecycle Listener implementation class
+ * MyHttpSessionAttributeListener
+ *
+ */
+@WebListener
+public class MyHttpSessionAttributeListener implements HttpSessionAttributeListener {
+
+	public void attributeAdded(HttpSessionBindingEvent httpSessionBindingEvent) {
+		System.out.println("attributeAdded() called on :" + this.getClass().getName());
+
+		System.out.println("newly added attribute name : " + httpSessionBindingEvent.getName() + "value : "
+				+ httpSessionBindingEvent.getValue());
+
+	}
+
+	public void attributeRemoved(HttpSessionBindingEvent httpSessionBindingEvent) {
+		System.out.println("attributeRemoved() called on :" + this.getClass().getName());
+
+		System.out.println("removed attribute name : " + httpSessionBindingEvent.getName() + "value : "
+				+ httpSessionBindingEvent.getValue());
+
+	}
+
+	public void attributeReplaced(HttpSessionBindingEvent httpSessionBindingEvent) {
+		System.out.println("attributeReplaced() called on :" + this.getClass().getName());
+
+		System.out.println("replaced attribute name : " + httpSessionBindingEvent.getName() + "value : "
+				+ httpSessionBindingEvent.getValue());
+
+	}
+
+}

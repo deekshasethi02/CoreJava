@@ -1,0 +1,8 @@
+1537766564340	Extract method 'startApp'
+1537776832788	Extract method 'createDocument'
+1537781424732	Extract method 'listDocument'
+1537781439649	Extract method 'searchDocument'
+1537782303068	Extract method 'findDocumentId'
+1537798425638	Move compilation unit
+1537859118103	Rename compilation unit 'DocumentServiceTest.java'
+1537859132475	Rename compilation unit 'DocumentServiceTestImpl.java'
